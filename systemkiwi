@@ -1,0 +1,68 @@
+/**
+ * @name systemkiwi (based on system24 by refact0r)
+ * @description A tui-style discord theme.
+ * @author refact0r & kiwisky
+ * @version 1.0.0
+ * @invite nz87hXyvcy
+ * @website https://github.com/refact0r/system24
+ * @source https://github.com/refact0r/system24/blob/master/system24.theme.css
+ * @authorId 508863359777505290
+ * @authorLink https://www.refact0r.dev
+*/
+
+@import url('https://refact0r.github.io/system24/system24.css');
+
+/* customize things here */
+:root {
+	--font: 'DM Mono';
+	letter-spacing: -0.05ch;
+	font-weight: 300;
+	--label-font-weight: 500;
+
+	--corner-text: 'KiwiOS';
+
+	--pad: 16px;
+	--txt-pad: 10px;
+
+	--bg-0: #221619;
+	--bg-1: #5d4150;
+	--bg-2: #7c394c;
+	--bg-3: #7d4d76;
+
+	--hover: #622a458d;
+	--active: #75425e;
+	--selected: var(--active);
+
+	--txt-dark: #7d4a7d;
+	--txt-link: var(--cyan);
+	--txt-0: #976270;
+	--txt-1: #f0dce6;
+	--txt-2: #c4508c;
+	--txt-3: #c580bc;
+
+	--mention-txt: var(--purple);
+	--mention-bg: color-mix(in srgb, var(--purple), transparent 90%);
+	--mention-overlay: color-mix(in srgb, var(--purple), transparent 90%);
+	--mention-hover-overlay: color-mix(in srgb, var(--purple), transparent 95%);
+	--reply-overlay: var(--active);
+	--reply-hover-overlay: var(--hover);
+
+	--border-width: 2px;
+	--border-color: var(--bg-3);
+	--border-hover-color: var(--green);
+	--border-transition: 0.2s ease;
+
+	--online-dot: #40c44f;
+	--dnd-dot: #d65454;
+	--idle-dot: var(--yellow);
+
+	--pink: #e586a5;
+	--pink-1: #c36886;
+	--pink-2: #a24a69;
+	--purple: #b396e8;
+	--purple-1: #9577c7;
+	--purple-2: #775aa6;
+	--cyan: #47c7cd;
+	--yellow: #d8941e;
+	--green: #e96eb2;
+}
